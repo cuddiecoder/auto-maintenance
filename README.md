@@ -26,7 +26,19 @@ cd automaintenance
 chmod +x *.sh
 ./setup.sh
 ```
+## Enable Scheduled Automation
 
+Install cron jobs:
+
+```bash
+./install_cron.sh
+```
+
+View installed schedules:
+
+```bash
+crontab -l
+```
 ---
 
 ## Usage
